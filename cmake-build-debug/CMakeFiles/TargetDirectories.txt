@@ -1,0 +1,3 @@
+/Users/ilyasabanov/coding/CLionProjects/islands/cmake-build-debug/CMakeFiles/islands.dir
+/Users/ilyasabanov/coding/CLionProjects/islands/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ilyasabanov/coding/CLionProjects/islands/cmake-build-debug/CMakeFiles/rebuild_cache.dir
