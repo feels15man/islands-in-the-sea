@@ -174,11 +174,11 @@ void recursion(int i, int j) {
 //                     && islands_str_cmp(ch_ver[i], ch_ver_tmp[i]));
         cut1(ch_hor_tmp[i]);
         cut1(ch_ver_tmp[j]);
-
         map[i][j] = '_';
+
         int flag_i, flag_j;
-        flag_i = (j > 1) && map[i][j - 1] == '*';
-        flag_j = (i > 1) && map[i - 1][j] == '*';
+        flag_i = (j > 0) && map[i][j - 1] == '*';
+        flag_j = (i > 0) && map[i - 1][j] == '*';
 
         if (flag_i) add(ch_hor_tmp[i], '_');
         if (flag_j) add(ch_ver_tmp[j], '_');
